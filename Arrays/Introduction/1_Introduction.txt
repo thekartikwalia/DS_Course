@@ -1,0 +1,20 @@
+ARRAY DEFINATION
+Array is collection of items of same variable type that are stored at contiguous memory locations.
+Each item in an array is indexed starting with 0.
+The C arrays are static in nature, i.e., they are allocated memory at the compile time.
+
+SYNTAX OF ARRAY DECLARATION
+data_type array_name[size]; OR data_type array_name[size1][size2]...[sizeN];
+where N is number of dimensions
+
+TYPES OF ARRAYS IN C 
+There are 2 types of arrays based on the number of dimensions it has:
+1. One Dimensional Arrays (1D Array)
+2. Multidimensional Arrays
+
+ARRAY OF CHARACTERS (STRINGS)
+We store sequence of characters in the form of an array of characters terminated by a NULL character. 
+These are called strings in C language.
+
+
+
