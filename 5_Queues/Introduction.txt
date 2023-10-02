@@ -1,0 +1,3 @@
+WHAT IS QUEUE ?
+A queue is a linear data structure that is open at both ends and the operations are performed in 
+First In First Out (FIFO) order.
