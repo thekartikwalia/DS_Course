@@ -1,4 +1,5 @@
 // C Program to illustrate strings
+// We store sequence of characters in form of array of characters terminated by a NULL character.
 #include <stdio.h>
 int main()
 {

@@ -3,18 +3,46 @@ Array is collection of items of same variable type that are stored at contiguous
 Each item in an array is indexed starting with 0.
 The C arrays are static in nature, i.e., they are allocated memory at the compile time.
 
+
 SYNTAX OF ARRAY DECLARATION
 data_type array_name[size]; OR data_type array_name[size1][size2]...[sizeN];
 where N is number of dimensions
 
+
 TYPES OF ARRAYS IN C 
 There are 2 types of arrays based on the number of dimensions it has:
 1. One Dimensional Arrays (1D Array)
+    The One-dimensional arrays, also known as 1-D arrays in C are those arrays that have 
+    only one dimension.
 2. Multidimensional Arrays
+    Multi-dimensional Arrays in C are those arrays that have more than one dimension. 
+    Some of the popular multidimensional arrays are 2D arrays and 3D arrays.
+    (A) Two-Dimensional array or 2D array in C is an array that has exactly two dimensions. 
+        They can be visualized in the form of rows and columns organized in a two-dimensional plane.
+        Syntax of 2D Array in C
+        array_name[size1] [size2];
+    (B) 3D array has exactly three dimensions. It can be visualized as a collection of 2D arrays 
+        stacked on top of each other to create the third dimension.
+        Syntax of 3D Array in C
+        array_name[size1] [size2] [size3];
 
-ARRAY OF CHARACTERS (STRINGS)
-We store sequence of characters in the form of an array of characters terminated by a NULL character. 
-These are called strings in C language.
+
+RELATIONSHIP BETWEEN ARRAY & POINTERS
+Arrays and Pointers are closely related to each other such that we can use pointers to perform all 
+the possible operations of the array. The array name is a constant pointer to the first element of 
+the array and the array decays to the pointers when passed to the function.
+
+
+PASSING AN ARRAY TO A FUNCTION IN C
+An array is always passed as pointers to a function in C. Whenever we try to pass an array to a 
+function, it decays to the pointer and then passed as a pointer to the first element of an array.
+
+
+RETURN AN ARRAY FROM A FUNCTION IN C
+In C, we can only return a single value from a function. To return multiple values or elements, 
+we have to use pointers. We can return an array from a function using a pointer to the first element 
+of that array.
+
 
 
 
