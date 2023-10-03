@@ -26,7 +26,7 @@ void create(struct Poly *p){
 // Function for displaying polynomial
 void display(struct Poly p){
     for(int i=0; i < p.n; i++){
-        printf("%dx^%d+", p.terms[i].coeff, p.terms[i].exp);
+        printf("%d(x^%d) + ", p.terms[i].coeff, p.terms[i].exp);
     }
     printf("\n");
 }
