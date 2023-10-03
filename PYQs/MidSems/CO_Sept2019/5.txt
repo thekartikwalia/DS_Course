@@ -1,0 +1,10 @@
+(A) The stack-life of an element m can be defined as the time elapsed from the end of Push(m) to the 
+    start of the pop operation that removes m from the stack.
+    Sequence of events for each element m:
+    1. You push m onto the stack, which takes X seconds.
+    2. You wait Y seconds.
+    3. You pop m from the stack, which takes X seconds.
+    So, Total time for stack life of m is X+Y+X= 2X+Y seconds
+(B) To compute the average stack-life of an element in this stack, you need to consider all elements 
+    from 1 to n and calculate their respective stack-lives. Then, take the average of these values.
+    
