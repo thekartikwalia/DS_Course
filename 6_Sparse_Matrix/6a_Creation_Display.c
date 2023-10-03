@@ -10,6 +10,8 @@ struct Sparse{
     struct Element *e;  // pointer e which holds list of elements
 };
 
+
+// Function for creating Sparse Matrix
 void create(struct Sparse *s){
     printf("Enter dimensions (row x column): ");
     scanf("%d%d", &s->m, &s->n);
@@ -23,6 +25,8 @@ void create(struct Sparse *s){
     }
 };
 
+
+// Function for displaying Sparse Matrix
 void display(struct Sparse s){
     int k=0;
     for(int i=0; i<s.m; i++){
