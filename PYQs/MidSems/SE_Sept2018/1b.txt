@@ -1,0 +1,19 @@
+The provided C program contains three nested loops. 
+Let's analyze the time and space complexity:
+1. Inner Loop (for i)
+    It runs n times, where n is variable
+2. Middle Loop (for j)
+    It runs n times for each iteration of outer loop 
+    So, it effectively runs n*n times  
+3. Outer Loop (for k)
+    It runs 9999 times, which is constant
+The total number of iterations is n*n*9999
+
+TIME COMPLEXITY
+Time Complexity of this program is O(n*n*9999), which can be simplified to O(n^2)
+
+SPACE COMPLEXITY
+Space Complexity of this program is O(1) bcoz it uses a constant amount of memory 
+(only a few integer variables are used regardless of input size 'n')
+
+Hence, Time complexity is O(n^2) and Space complexity is O(1)
