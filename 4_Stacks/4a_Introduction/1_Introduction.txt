@@ -1,0 +1,39 @@
+WHAT IS A STACK ?
+A stack is a linear data structure in which the insertion of a new element and removal of an 
+existing element takes place at the same end represented as the top of the stack.
+To implement the stack, it is required to maintain the pointer to the top of the stack, which is the 
+last element to be inserted because we can access the elements only on the top of the stack.
+
+LIFO - LAST IN FIRST OUT
+This strategy states that the element that is inserted last will come out first. 
+You can take a pile of plates kept on top of each other as a real-life example. The plate which we put 
+last is on the top and since we remove the plate that is at the top, we can say that the plate that was 
+put last comes out first.
+
+TYPES OF STACKS
+1. Fixed Size Stack
+    A fixed size stack has a fixed size and cannot grow or shrink dynamically. If the stack is full 
+    and an attempt is made to add an element to it, an overflow error occurs. If the stack is empty and 
+    an attempt is made to remove an element from it, an underflow error occurs.
+2. Dynamic Size Stack
+    A dynamic size stack can grow or shrink dynamically. When the stack is full, it automatically 
+    increases its size to accommodate the new element, and when stack is empty, it decreases its size. 
+    This type of stack is implemented using a linked list, as it allows for easy resizing of stack.
+IN ADDITION TO THESE 2 MAIN TYPES, THERE ARE SEVERAL OTHER VARIATIONS OF STACKS
+1. Infix to Postfix Stack
+    This type of stack is used to convert infix expressions to postfix expressions.
+2. Expression Evaluation Stack
+    This type of stack is used to evaluate postfix expressions.
+3. Recursion Stack
+    This type of stack is used to keep track of function calls in a computer program and to return 
+    control to the correct function when a function returns.
+4. Memory Management Stack
+    This type of stack is used to store the values of program counter & values of registers in a 
+    computer program, allowing the program to return to the previous state when a function returns.
+5. Balanced Parenthesis Stack
+    This type of stack is used to check the balance of parentheses in an expression.
+6. Undo-Redo Stack
+    This type of stack is used in computer programs to allow users to undo and redo actions.
+
+
+
