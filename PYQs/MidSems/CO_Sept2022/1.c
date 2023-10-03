@@ -101,3 +101,9 @@ int main()
 
     return 0;
 }
+
+/*
+Time Complexity : The time complexity of this algorithm is O(m + n), where m is the number of
+elements in s1 and n is the number of elements in s2.This is because we traverse both linked
+lists once, and the time taken is linearly proportional to the total number of elements in both lists.
+*/
