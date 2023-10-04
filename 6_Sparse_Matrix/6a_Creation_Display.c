@@ -6,7 +6,7 @@ struct Element{
 };
 
 struct Sparse{
-    int n, m, num;  // m->rows, n->columns, num->non-zero elements
+    int m, n, num;  // m->rows, n->columns, num->non-zero elements
     struct Element *e;  // pointer e which holds list of elements
 };
 
